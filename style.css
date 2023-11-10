@@ -1,0 +1,357 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f5f5f7;
+    font-family: "SF Pro Text", "SF Pro Icons", "AOS Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* overflow: hidden; */
+}
+.navbar{
+    width: 80%;
+    margin: auto;
+}
+.list-items{
+    display: flex;
+    list-style: none;
+    justify-content:space-around;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 8px;
+}
+.list-items li i {
+    font-size: 19px;
+}
+.list-items li a{
+    text-decoration: none;
+    color: #4b4b52;
+    font-size: 16px;
+}
+.heading{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top:8rem;
+}
+.left-heading{
+    width: 65%;
+}
+.left-heading h1 {
+    font-size: 2.9rem;
+}
+.span{
+    color: #686871;
+    
+}
+.right-heading h3{
+    font-size: 16px;
+}
+.right-heading h4{
+    font-size: 13px;
+    color: blue;
+}
+/* .gap{
+    margin-top: 7px;
+} */
+.main1{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 4.5rem;
+}
+.img1 img{
+    width: 120px;
+    height: 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.heading-main1{
+    margin-top: 4rem;
+    margin-left: 7rem;
+}
+.heading-main1{
+    font-size:1.7rem;
+}
+.heading-main1 span{
+    color: #686871;
+
+}
+.main2{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+    column-gap: 10px;
+}
+.div{
+    width: 400px;
+    height: 500px;
+    border-radius: 15px;
+}
+.div1 {
+    background-image: url('./imegs/m1.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.div2 {
+    background-image: url('./imegs/m2.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.div3 {
+    background-image: url('./imegs/m3.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.div1 h3,h4,h5{
+    color: white;
+    position: relative;
+    top: 2rem;
+    left: 1rem;
+}
+.div2 h3,h4,h5{
+    position: relative;
+    top: 2rem;
+    left: 1rem;
+}
+.div3 h3,h4,h5{
+    position: relative;
+    top: 2rem;
+    left: 1rem;
+}
+.fr-2{
+    font-size: 1.5rem;
+    margin-top: 0.8rem;
+}
+.fr-3{
+    margin-top: 0.6rem;
+}
+.main3{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+.main3div1{
+    background-image: url('./imegs/m21.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 480px;
+    border-radius: 15px;
+}
+.main3div2{
+    background-image: url('./imegs/m22.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 480px;
+    border-radius: 15px;
+}
+.main3h4{
+    position: relative;
+    left: 1.5rem;
+}
+.main3h2{
+    position: relative;
+    top: 2.5rem;
+    left: 1.5rem;
+    font-size: 1.7rem;
+}
+.main3div2h2{
+    position: relative;
+    top: 3rem;
+    left: 1.8rem;
+    font-size: 1.7rem;
+}
+.main4{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+.mndiv{
+    width: 320px;
+    height: 250px;
+    background: white;
+    border-radius: 15px;
+}
+.mndiv i{
+    font-size: 2rem;
+    position: relative;
+    color: green;
+    top: 2rem;
+    left: 2rem;
+}
+.mndiv h3{
+    font-size: 1.4rem;
+    position: relative;
+    top: 5rem;
+    left: 1.5rem;
+}
+.main4div2 h3{
+    font-size: 1.4rem;
+    position: relative;
+    top: 3.6rem;
+    left: 1.5rem;
+}
+.main4div3 h3 {
+    font-size: 1.4rem;
+    position: relative;
+    top: 3.6rem;
+    left: 1.5rem;
+}
+.main5{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+.main5div1{
+    background-image: url('./imegs/m41.jfif');
+    background-size: cover;
+    height: 500px;
+    width: 450px;
+    border-radius: 15px;
+}
+.main5div2 ,.main5div3{
+    height: 500px;
+    width: 310px;
+    background-color: white;
+    border-radius: 15px;
+}
+.main5div2 img {
+    height:200px;
+    width:200px;
+    position: relative;
+    left: 3.6rem;
+    top: 7rem;
+}
+.main5div3 img{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 3rem;
+    top: 7rem;
+}
+.main5div1 h2{
+    position: relative;
+    left: 2rem;
+    font-size: 2rem;
+    top: 3rem;
+}
+.main5div1 h4{
+    position:relative;
+    top: 4rem;
+    left: 2rem;
+}
+.samediv h5{
+    position: relative;
+    top: 9rem;
+    left: 1.5rem;
+    color: orange;
+}
+.samediv h3{
+    position: relative;
+    top: 10rem;
+    left:1.5rem;
+    font-size: 1rem;
+}
+.samediv p{
+    position: relative;
+    top: 12rem;
+    left: 1.5rem;
+}
+.changeimg{
+    background-image: url('./imegs/11.jfif');
+}
+.links{
+    margin-top: 1rem;
+    margin-left: 6rem;
+}
+.btn{
+    padding: 7px 15px;
+    border:1px solid transparent;
+    columns: #000;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 10px;
+    background-color: rgba(0,0,0,.08);
+}
+.para{
+    width: 80%;
+    margin: auto;
+    margin-top: 1rem;
+    font-size: 13px;
+}
+.line{
+    width: 80%;
+    margin: auto;
+    background-color: #686871;
+    height: 2px;
+    margin-top: 6px;
+}
+footer{
+    margin-top: 1rem;
+}
+.logo{
+    width: 80%;
+    margin: auto;
+    
+}
+.logo p {
+    display: inline-block;
+    margin-left: 20px;
+}
+.footer-list{
+    width: 80%;
+    margin: auto;
+    margin-top: 1.5rem;
+    display: flex;
+    color: #686871;
+    justify-content: space-between;
+}
+.footer-list ul {
+    list-style: none;
+}
+.footer-list ul li {
+    font-size: 13px;
+    padding-top:0.8rem;
+}
+.li1{
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+}
+.enter{
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 1.3rem;
+}
+.footer-txt{
+    width: 80%;
+    margin: auto;
+    font-size: 14px;
+}
+.copy{
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom:2rem ;
+    color: #686871;
+}
+.copy ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
